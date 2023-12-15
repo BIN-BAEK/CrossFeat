@@ -13,7 +13,7 @@ DOI :
    - sample_5fold_idx.pkl  This file includes drug and side effect indices in the PS1 and PS2 datasets for training, validation, and test set per fold. Additionally, it incorporates frequency values for drug-side effect pairs.
    - PS3.pkl  This file contains drug and side effect indices of PS3 dataset, along with corresponding frequency values for drug-side effect pairs.
 
-   The four input files below were preprocessed following the method by Zhao et al. (DOI httpsdoi.org10.1093bibbbab449)
+   The four input files below were preprocessed following the method by Zhao et al. (DOI: https://doi.org/10.1093/bib/bbab449)
    - drug_word.pkl  The drug Mol2vec word vector matrix.
    - drug_fingerprint_similarity.pkl  The Jaccard score similarity matrix of drug fingerprint.
    - side_sem.pkl  The side effect semantic similarity matrix.
