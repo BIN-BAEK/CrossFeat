@@ -13,6 +13,8 @@ DOI :
 - data
    - sample_5fold_idx.pkl:  This file includes drug and side effect indices in the PS1 and PS2 datasets for training, validation, and test set per fold. Additionally, it incorporates frequency values for drug-side effect pairs.
    - PS3.pkl:  This file contains drug and side effect indices of PS3 dataset, along with corresponding frequency values for drug-side effect pairs.
+   - drug_id.csv: .csv file with drug names
+   - side_id.csv: .csv file with side effect names
 
    The four input files below were preprocessed following the method by Zhao et al. (DOI: https://doi.org/10.1093/bib/bbab449)
    - drug_word.pkl:  The drug Mol2vec word vector matrix.
