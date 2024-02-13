@@ -1,6 +1,6 @@
 # CrossFeat
 CrossFeat: A transformer-based cross-feature learning model for predicting drug side effects frequency
-![Figure1](/main/Figure1.tif)
+![Figure1](/main/Figure1.JPG)
 DOI : 
 
 # Requirements
