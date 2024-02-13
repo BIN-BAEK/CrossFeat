@@ -27,6 +27,18 @@ DOI :
    - network_main.py:  This file contains each network comprising CrossFeat.
    - utils.py:  This file contains the utilities for CrossFeat.
  
+- FAERS dataset:  Collectively, these files provide diverse input data for training and evaluating models using the FAERS dataset from the 4th quarter of 2012 to the 2nd quarter of 2023.
+   - SEname.tsv:  Contains the names of side effects.
+   - age_sample_5fold_idx_VL.zip:  File with sample indices divided into training, validation, and test folds for 5-fold cross-validation, specifically related to patient age.
+   - drug_fingerprint1024_jaccard.pkl:  Holds Jaccard similarity values for drug fingerprints.
+   - drug_mol2vec300d.csv:  Includes 300-dimensional mol2vec vectors for drugs.
+   - drugname.csv:  Contains the names of drugs.
+   - gender_age_sample_5fold_idx_VL.zip:  Similar to the age file, it also includes sex information for 5-fold cross-validation.
+   - gender_sample_5fold_idx_VL.zip:  Sample index file considering sex for 5-fold cross-validation.
+   - se_DAG_sim.csv:  File representing the similarity between side effects using a Directed Acyclic Graph (DAG) approach.
+   - se_glove_wordvector.csv:  Holds word vectors for side effects obtained using the GloVe algorithm.
+   
+ 
 # Contact
 If you have any questions or suggestions regarding CrossFeat, please feel free to contact Bin Baek at baekbini@gm.gist.ac.kr.
 
