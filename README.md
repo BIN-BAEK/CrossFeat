@@ -1,7 +1,7 @@
 # CrossFeat
 CrossFeat: A transformer-based cross-feature learning model for predicting drug side effects frequency
 ![Figure1](/main/Figure1.JPG)
-DOI : 
+DOI : https://doi.org/10.1186/s12859-024-05915-2
 
 # Requirements
 - Python == 3.6.12
